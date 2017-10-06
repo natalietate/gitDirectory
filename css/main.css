@@ -43,6 +43,8 @@
   -webkit-transition: border .5s ease-in-out;
   /* Safari 3.1 to 6.0 */
   transition: border .5s ease-in-out;
+  z-index: 2000;
+
 }
 
 .btn:hover {
@@ -54,15 +56,31 @@
 	margin-top: 70px
 }
 
+.knockout {
+  background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+  animation: blur 12s ease infinite;
+  color: red;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: arial, helvetica;
+  margin: 50px auto;
+  text-align: center;
+  background-color: white;
+
+}
+
+
 .centerLogo {
-  animation: shoot 12s ease infinite;
+  animation: shoot 20s ease infinite;
   margin: auto;
   position: static;
   background-color: white;
   opacity: 0.9;
   border-radius: 10%;
-  width: 50px;
-  height: 50px;
+  width: 500px;
+  height: 500px;
   text-align: center;
   z-index: 999;
 }
@@ -104,30 +122,30 @@
 }
 
 .logo {
-  height: 50px;
-  width: 50px;
+  height: 200px;
+  width: 200px;
 }
 
 @keyframes shoot {
   0% {
-    transform: translateY(300px);
+    transform: translateY(600px);
     -webkit-filter: blur(0px);
     /* Safari */
   }
-  20% {
+  10% {
     transform: translateY(0px);
     margin: auto;
     /* Safari */
   }
   100% {
-    transform: translateY(300px);
+    transform: translateY(600px);
 
   }
 }
 
 /* Home Page */
 html,
-body {
+.stars {
 	padding: 0;
 	margin: 0;
 	width: 100%;
