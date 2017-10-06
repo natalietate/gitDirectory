@@ -63,7 +63,7 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 20px;
   font-family: arial, helvetica;
   margin: 50px auto;
   text-align: center;
@@ -79,8 +79,8 @@
   background-color: white;
   opacity: 0.9;
   border-radius: 10%;
-  width: 500px;
-  height: 500px;
+  width: 200px;
+  height: 300px;
   text-align: center;
   z-index: 999;
 }
@@ -122,23 +122,31 @@
 }
 
 .logo {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
 }
 
 @keyframes shoot {
   0% {
-    transform: translateY(600px);
+    transform: translateY(300px);
     -webkit-filter: blur(0px);
     /* Safari */
   }
+  5%{
+    -webkit-filter: blur(5px);
+
+  }
   10% {
     transform: translateY(0px);
+    -webkit-filter: blur(0px);
+
     margin: auto;
     /* Safari */
   }
   100% {
-    transform: translateY(600px);
+    transform: translateY(300px);
+    -webkit-filter: blur(0px);
+
 
   }
 }
