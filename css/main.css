@@ -1,0 +1,71 @@
+
+/* Global CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+/* Nav CSS */
+
+.nav-header {
+  background-color: rgba(255, 255, 255, 0.9) ;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn-group {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.btn {
+  color: rgb(65, 80, 104);
+  background-color: rgba(255, 255, 255, 0.90);
+  display: inline-block;
+  text-decoration: none;
+  font-family: verdana;
+  padding: 10px;
+  border: 0px solid #999999;
+  border-radius: 15px;
+  -webkit-transition: border .5s ease-in-out;
+  /* Safari 3.1 to 6.0 */
+  transition: border .5s ease-in-out;
+}
+
+.btn:hover {
+  border: 15px solid rgb(65, 80, 104);
+  border-radius: 300px;
+}
+
+.about-general {
+	margin-top: 70px
+}
+
+/* Home Page */
+html,
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.canvas{
+background-color:blue;
+  width: 100%;
+  height: 100%;
+}
