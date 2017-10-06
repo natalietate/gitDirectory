@@ -1,3 +1,59 @@
+
+/* Global CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* background-color: rgba(0, 0, 0, 0.1); */
+}
+
+/* Nav CSS */
+
+.nav-header {
+  background-color: #154360;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.btn-group {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+
+.btn {
+  background-color: #515A5A;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  padding: 6px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: 0.3s background-color ease-in-out;
+}
+
+.btn:hover {
+  background-color: #26C6DA;
+  transition: 0.3s background-color ease-in-out;
+}
+
+.about-general {
+	margin-top: 70px
+}
+
+/* Home Page */
 html,
 body {
 	padding: 0;
