@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  /* background-color: rgba(0, 0, 0, 0.1); */
+   background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Nav CSS */
@@ -171,4 +171,20 @@ background-color:blue;
 body {
     background-color: #3B3251;
     color: white;
+    font-family: verdana;
+}
+
+
+
+.about-stats {
+  width: 100%;
+text-align: center;
+
+}
+#about-text-1 {
+  padding: 25px;
+}
+
+#about-text-2 {
+  padding: 25px;
 }
