@@ -9,7 +9,7 @@
 /* Nav CSS */
 
 .nav-header {
-  background-color: #154360;
+  background-color: rgba(255, 255, 255, 0.9) ;
   position: fixed;
   height: 60px;
   width: 100vw;
@@ -32,21 +32,22 @@
 }
 
 .btn {
-  background-color: #515A5A;
-  border: 1px solid #fff;
-  border-radius: 2px;
-  color: white;
-  font-family: sans-serif;
-  font-size: small;
-  padding: 6px 20px;
+  color: rgb(65, 80, 104);
+  background-color: rgba(255, 255, 255, 0.90);
   display: inline-block;
   text-decoration: none;
-  transition: 0.3s background-color ease-in-out;
+  font-family: verdana;
+  padding: 10px;
+  border: 0px solid #999999;
+  border-radius: 15px;
+  -webkit-transition: border .5s ease-in-out;
+  /* Safari 3.1 to 6.0 */
+  transition: border .5s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #26C6DA;
-  transition: 0.3s background-color ease-in-out;
+  border: 15px solid rgb(65, 80, 104);
+  border-radius: 300px;
 }
 
 .about-general {
