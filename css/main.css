@@ -167,6 +167,14 @@ body {
   font-family: verdana;
 }
 
+.about-left {
+    width: 178px;
+    float:left;
+    margin-top: 50px;
+}
+.about-general  {
+  margin-left:178px;
+}
 .about-intro {
   text-align: center;
   text-shadow: 3px 2px black;
