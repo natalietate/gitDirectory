@@ -167,6 +167,12 @@ body {
   font-family: verdana;
 }
 
+.about-intro {
+  text-align: center;
+  text-shadow: 3px 2px black;
+
+}
+
 a.about-help {
   text-decoration: none;
   color: white;
